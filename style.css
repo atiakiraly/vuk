@@ -1,0 +1,124 @@
+html {
+    background-color: #f3b967;
+    background-image: url(../img/kisvuk.png);
+    background-repeat: repeat-y;
+    background-size: 120px;
+}
+
+body {
+    width: 723px;
+    margin: 0 auto;
+    background-color: #f3b967;
+    color: #120901;
+}
+
+header {
+    width: 723px;
+    height: 540px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: url(../img/fejlec.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    border-bottom: 10px solid #120901;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(138, 57, 7);
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+nav a {
+    float : left;
+    padding : 12px 0;
+    color : white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width : 25%;
+    text-align: center;
+}
+nav a:hover {
+    background-color : #e74905;
+}
+nav a:active {
+    background-color : #e38651;
+}
+
+main {
+    width: 100%;
+}
+h1 {
+    background-color: #804106;
+    font-variant: small-caps;
+    letter-spacing: 0.1rem;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #120901;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color : rgb(161, 90, 24);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgb(230, 178, 123);
+}
+
+img {
+    border: 10px solid  #804106;
+    border-radius: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    width: 40%;
+    float: left;
+    margin-right: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main > ul {
+    list-style-image: url(../img/vuk.png);
+}
+
+footer {
+    padding: 25px 0;
+    font-variant: small-caps;
+    background: #804106;
+    text-align: center;
+    width: 723px;
+    margin: 20px auto;
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+}
